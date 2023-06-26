@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Montserrat;
     text-decoration: none;
+}
+@font-face {
+  font-family: Montserrat; /* Гарнитура шрифта */
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+ }
+html{
+  scroll-behavior: smooth;
+  overflow-x: none;
 }
 #menu__toggle{
     display: none;
@@ -20,7 +28,7 @@
     display: flex;
 }
 .menu__item:hover{
-    color: #00fff7;
+    color: #10c9c3;
     transition: 0.3s;
 }
 .menu__box{
@@ -29,6 +37,113 @@
     justify-content: space-evenly;
     align-content: center;
     align-items: center;    
+}
+nav{
+  width: 100%;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1%;
+  height: 25vh;
+  background-color: #e9e9e9;
+}
+.home{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  height: 15vh;
+  width: 40%;
+  justify-content: space-around;
+}
+.homeform{
+  height: 4vh;
+  width: 15%;
+}
+.homebut{
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: #10c9c3;
+  padding: 2%;
+  color: white;
+}
+.home>h2{
+  font-size: 4vh;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+.aboutus{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 20vh;
+  text-align: center;
+}
+.aboutus>h2{
+  font-size: 3vh;
+}
+.skills{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+.hungred{
+  width: 50%;
+  display: flex;
+}
+.seventy-five{
+  width: 75%;
+}
+.fiveteen{
+  width: 15%;
+}
+.firstpart{
+  display: flex;
+    width: 36%;
+    padding-left: 14%;
+    background-color: #f8f9f9;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.imgpart{
+  width: 50%;
+  background-color: #e9e9e9;
+}
+
+#fiirstpart{
+  background-color: #10c9c3;
+  height: 3px;
+}
+#secondpart{
+  background-color: #d8d8d8;
+  height: 3px;
+}
+.nighty{
+  width: 90%;
+}
+.ten{
+  width: 10%;
+}
+.sixty-five{
+  width: 65%;
+}
+.forty-five{
+  width: 45%;
 }
 @media (max-width: 768px){
     #first_menu_item{
