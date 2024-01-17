@@ -330,4 +330,22 @@ main{
     .menu__item:hover {
       background-color: #CFD8DC;
     }
+    .home{
+      height: 25vh;
+    }
+    header{
+      height: 50vh;
+      justify-content: center;
+    }
+    .homeform{
+      width: 30%;
+      height: 3vh;
+    }
+    .vid{
+      width: 50%;
+      height: 40vh;
+    }
+    .workskills{
+      padding: 0;
+    }
 }
